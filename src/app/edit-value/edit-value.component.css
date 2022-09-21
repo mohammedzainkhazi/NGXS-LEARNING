@@ -1,0 +1,34 @@
+.page{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+input{
+    margin: 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons button{
+    margin:10px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    background-color: cyan;
+    cursor: pointer;
+}

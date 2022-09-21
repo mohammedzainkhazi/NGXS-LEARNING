@@ -1,0 +1,18 @@
+<div class="page">
+    <input type="text" placeholder="Enter Number"
+     [(ngModel)]="value"
+     (ngModelChange)="set($event)"
+     [value]="value"
+     />
+     <input type="text"
+     [(ngModel)]="name"
+     disabled
+     [value]="name"
+     />
+    <div class="buttons">
+        <button (click)="set(value)" >SET</button>
+        <button (click)="reset()">RESET</button>
+        <button (click)="increment()">INCREMENT</button>
+        <button (click)="decrement()">DECREMENT</button>
+    </div>
+</div>
